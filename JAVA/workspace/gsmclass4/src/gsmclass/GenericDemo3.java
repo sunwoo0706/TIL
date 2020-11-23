@@ -1,5 +1,5 @@
 package gsmclass;
-class Sta<T>{
+class Sta<T>{ // 타입 매개변수
 	int p;
 	Object []arr;
 	Sta(){
