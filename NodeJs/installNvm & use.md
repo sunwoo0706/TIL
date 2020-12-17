@@ -44,3 +44,33 @@ $ nvm alias <alias> <version>  # ex> nvm alias test-v 8.9.4
 
 추가 [사용법(Usage)](https://github.com/nvm-sh/nvm#usage-1)
 
+---
+
+## n
+
+n은 기존에 설치된 Node.js를 제거할 필요가 없기 때문에 좀 더 쉽게 설치할 수 있습니다.<br />
+npm은 전역(Global) 설치합니다.
+
+```bash
+$ npm install -g n
+
+# 관리자 권한을 요구할 경우
+$ sudo npm install -g n
+```
+간단한 사용법을 소개하겠습니다.<br />관리자 군한을 요구할 경우(`Error: sudo required`) 앞에 `sudo`를 붙입니다. 또한 제거(rm)할 경우에도 필요할 수 있습니다.
+```bash
+# 설치된 Node 버전 사용(목록에서 선택 후 Ctrl + c)
+$ n
+
+# 모든 Node 버전 중 설치된 버전 확인
+$ n ls  
+
+# Node 버전 설치  
+$ n <version>  # ex> n 8.9.4
+$ n latest  # 최신 LTS Node 버전 설치
+
+# 제거할 Node 설정
+$ n rm <version ...>  #ex> n rm 8.9.1 8.9.2
+$ n prune  # 현재 버전을 제외한 모든 버전 제거
+```
+추가 [사용법(Usage)](https://github.com/tj/n#usage)
