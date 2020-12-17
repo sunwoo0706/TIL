@@ -6,9 +6,8 @@ Node.js는 JS 런타임 자체를 의미하기도 하고, Node.js만의 API(Appl
 
 더 자세한 이야기는 Node.js에 대해 본격적으로 알아볼 때 하기로 하고, 우선은 설치부터 해요.
 
-## nvm을 이용해서 맥에 Node.js 설치하기
+[## nvm을 이용해서 맥에 Node.js 설치하기](https://github.com/Goolgae/TIL/blob/master/NodeJs/installNvm%20%26%20use.md)
 맥이나 리눅스에서 Node.js를 설치할 때는 nvm을 이용하는 것이 좋아요. nvm은 **Node Version Manager**의 줄임말로, 말그대로 Node.js의 버전관리를 쉽게 할 수 있도록 도와주는 툴이에요.
--- 추후 추가 예정
 
 ## Homebrew를 이용해서 설치하기
 Homebrew의 기초 사용방법 및 설치 방법, 설명은 [이곳](https://github.com/Goolgae/TIL/blob/master/Etc/OsxSetting/macSetting.md)을 들어가 보시고, Homebrew가 이미 설치되어 있다면, 터미널을 열고 설치하면 끝이죠.
