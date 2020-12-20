@@ -7,6 +7,6 @@
 
 [사이트](https://developer.github.com/program/)로 들어가 신청해보자!
 
-<img src="./images/GithubDeveloper.png" width="320">
+<img src="./images/githubDeveloper.png" width="320">
 
 위와 같이 멋지게 하이라이트가 뜬것을 볼수있다.
