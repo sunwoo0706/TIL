@@ -35,3 +35,14 @@ Description 메타 태그(속성인가 봅니다.)는 검색에서 결과 페이
 ![Description2](https://steemitimages.com/1280x0/https://steemitimages.com/DQmdhvWnZ4LdWrRE8KZQimzg23BQSwYdpUk7pSiyRFi5W56/Cap%202018-02-11%2012-18-07-447.png)
 
 - 1~2개의 문장이나 짧은 단락을 사용하는 것이 좋다.
+
+## Keyword
+
+웹페이지 문서에서 핵심 검색단어라고 할 수 있는 키워드를 설정합니다.
+
+![Keyword](https://steemitimages.com/DQmXPBHa5EqxDTwkwgVK2urfnrRKvAiexqKKT4aXjbnPXGj/Cap%202018-02-12%2007-04-36-428.png)
+
+(description 뿐만 아니라 keywords 태그를 통해 검색 엔진에서 검색하기 때문)
+
+- 그 문서에 해당하는 키워드를 작성한다.
+- 스팀잇과 코딩에 관련된 내용이면 키워드는 steemit, coding
