@@ -27,3 +27,13 @@
 - inputType : 입력될 문자열의 형식 지정(문자, 숫자, 비밀번호 등)
 - backgroundTint : 에디트텍스트의 배경색상 지정
 - hint : 사용자가 입력하기 전에 미리 보여지는 문자열
+
+## 3) 버튼
+
+- Id : 위젯의 이름을 정의
+- backgroundTint : 버튼의 색상 지정
+- textAllCaps : 버튼의 영어 텍스트 대문자 지정속성
+  - true : 무조건 대문자표시, false : 사용자 입력값으로 표시
+- textColor : 문자의 색상을 정의
+- text : 버튼에 보이는 문자를 설정
+- layer-gravity : 레이아웃 내에서 버튼 배치를 정의(왼쪽, 오른쪽, 중간 등)
