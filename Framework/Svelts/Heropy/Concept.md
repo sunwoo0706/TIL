@@ -25,6 +25,8 @@ Svelts의 별명으로는 '프레임워크가 없는 프레임워크' 혹은 '�
 - No diffing
 - No overhead
 
+> 내가 이해한걸로 치자면 런타임으로 계속 변경 사항을 기다리고 있는것이 아니라 빌드가 될때 이미 어떻게 변할지 한마디로 경우의수를 알고 있는것 같다.
+
 3. Truly reactives
 
 - Framework-less VanillaJS
