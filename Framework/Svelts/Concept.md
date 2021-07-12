@@ -1,4 +1,4 @@
-### Svelts란?
+### Svelte란?
 
 Svelts는 [Rich Harris](https://twitter.com/rich_harris)가 제작한 프론트엔드 프레임워크입니다.
 Svelts의 별명으로는 '프레임워크가 없는 프레임워크' 혹은 '컴파일러'이 있습니다.
