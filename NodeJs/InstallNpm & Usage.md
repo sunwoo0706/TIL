@@ -1,7 +1,4 @@
-<h1 align="center">
-    <img height="120" src="../images/npm.png"/>
-    <br>
-</h1>
+### NPM
 
 npm(Node Package Manager)은 Js및 세계 최대의 소프트웨어 레지스트리 패키지 관리자로 Node.js를 설치하면 같이 설치되어 사용할 수 있습니다.<br />
 npm은 Node.js에서 사용되는 각종 코드 패키지들이 모여있고, 우리는 그 패키지를 다운로드 받아 사용할 수 있습니다.<br />
@@ -13,6 +10,7 @@ npm 레지스트리에는 640,000개가 넘는 패키지가 포함되어 있으�
 ```bash
 $ npm init
 ```
+
 - package
 - version
 - description
@@ -26,16 +24,18 @@ $ npm init
 여러 가지 질문에 답하면 (옵션을 추가하면) `package.json`파일을 작성합니다.<br />각 질문을 넘어가면 기본값을 사용합니다.
 
 질문 없이 바로 시작하고 싶다면 `-f`(--force),`-y`(`--yes`)중 하나의 플래그를 추가하는 것을 추천합니다.
+
 ```bash
 $ npm init -y
 ```
+
 이미 `package.json`파일을 가지고 있다면, 먼저 그 파일을 읽고 난 후 옵션을 기본값을 사용합니다.
 
 질문 없이 바로 시작하고 싶다면 `-f`(`--force`)`-y`(`--yes`)중 하나의 플래그를 추가하는 것을 추천합니다.
 
 이미 `package.json`파일을 가지고 있다면, 먼저 그 파일을 읽고 난 후 옵션을 기본값으로 사용합니다.
 
-## package.json
+### package.json
 
 ```json
 {
@@ -77,12 +77,10 @@ URL이나 Command Line의 일부로 사용될 소문자로 표기된 214자 이�
 
 ```json
 {
-  "keywords:": [
-    "array",
-    "string"
-  ]
+  "keywords:": ["array", "string"]
 }
 ```
+
 ### homepage
 
 프로젝트 홈페이지로 연결되는 URL을 지정합니다.
@@ -112,13 +110,10 @@ URL이나 Command Line의 일부로 사용될 소문자로 표기된 214자 이�
 ## files
 
 패키지가 의존성으로 설치될 때 같이 포함될 파일들의 배열입니다.<br />
+
 ```json
 {
-  "files": [
-    "dist/",
-    "js/{src,dist}/",
-    "scss/"
-  ]
+  "files": ["dist/", "js/{src,dist}/", "scss/"]
 }
 ```
 
@@ -140,6 +135,7 @@ Github을 사용하면 `npm docs`명령을 사용하여 찾을 수 있습니다.
   }
 }
 ```
+
 ### script
 
 패키지 라이프 사이클에서 여러 번 실행되는 스크립트 명령을 포함합니다.
@@ -180,7 +176,8 @@ Github을 사용하면 `npm docs`명령을 사용하여 찾을 수 있습니다.
 ### bundledDependencies
 
 패키지를 게시할 때 번들로 묶을 패키지의 이름을 **배열**로 지정합니다.<br />
-npm 패키지를 로컬에서 보존해야 하거나 단일 파일 다운로드를 통해 사용할 수 있는 경우 `npm pack`을 실행하여 패키지를 `<name>-<version>.tgz`형태의 [tarball](https://ko.wikipedia.org/wiki/Tar_(%ED%8C%8C%EC%9D%BC_%ED%8F%AC%EB%A7%B7))파일로 묶을 수 있습니다.
+npm 패키지를 로컬에서 보존해야 하거나 단일 파일 다운로드를 통해 사용할 수 있는 경우 `npm pack`을 실행하여 패키지를 `<name>-<version>.tgz`형태의 [tarball](<https://ko.wikipedia.org/wiki/Tar_(%ED%8C%8C%EC%9D%BC_%ED%8F%AC%EB%A7%B7)>)파일로 묶을 수 있습니다.
+
 ```bash
 {
   "bundledDependencies": [
@@ -235,3 +232,5 @@ depenedcies 동일하게 배포 시 포함될 의존성 모듈을 지정하지�
 그렇다면 상위 모듈 버전이 동일하다가 하더라도 내부적으로 다른 결과를 출력할 수 있습니다.
 
 ```bash
+
+```
