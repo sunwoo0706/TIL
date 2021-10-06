@@ -2,22 +2,111 @@
 
 > #### 시작한 날 : `2020/12/14`
 
-📌 **먼저 `TIL`에 대해 알아보기로 해요 :)**
-> `TIL`은 `Today I Learned`의 약어입니다!<br/>
-> 한국말로 직역하면 오늘 내가 배운 것! 이라는 뜻이죠.😊
-> 오늘 공부한 내용을 매일매일 기록하는 방법이라고 쉽게 이해하면 될 것 같아요!<br/>
+**AXIOS**
 
-📌 **작성법**
-> - 폴더와 파일명은 될 수 있으면 영문(파스칼 표기법)으로 작성합니다.
-> - [Markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601)으로 작성합니다.
-> - 짧고 간결하며 핵심적인 문장을 사용한다. 필요한 설명이 있으면 관련된 정보가 포함된 외부 링크를 사용합니다.
-> - 개발자로서 꾸준한 성장을 위해 학습경험을 기록합니다.
-> - 의미 없는 커밋은 지양하고 모든 내용은 직접 작성합니다.
-> - 커밋 규칙은 레이드님의 블로그를 참조합니다. [📖](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
-> - reference를 명시하고, 원작자가 참고를 허용하는 자료만 사용한다.
-> - 본인 또는 다른 사람이 해당 문서를 다시 봤을 때, 추가적인 검색의 비용이 들지 않도록 자세히 기록한다.
+- [Axios 기초 사용법](Axios/AxiosUsage.md)
+- [Axios 설치 및 사용법](Axios/InstallAxios-Usage.md)
 
-📌 **파일구조**
-> - 루트 디렉터리의 직속 하위 디렉터리에는 프로그래밍 언어나 프레임워크와 같은 대주제만을 포함합니다.
-> - 로드맵 등과 같이 패키지 성으로 공부한 자료들은 LearnPackage 디렉터리에 포함합니다.
-> - 새로운 주제가 많은 양이 아닐 경우 기타(Etc)에 종속시킵니다.
+**CONTEXTAPI**
+
+- [ContextAPI 기초 예제](ContextApi/SimpleExample.md)
+- [ContextAPI는 언제 쓰는가](ContextApi/WhenContext.md)
+
+**DEPLOY**
+
+- [Netlify란?](Deploy/Netlify.md)
+
+**DESIGNPATTERN**
+
+- [MVC 정리](DesignPattern/Mvc.md)
+- [MVP 정리](DesignPattern/Mvp.md)
+- [MVVM 정리](DesignPattern/Mvvm.md)
+
+**EXTRA**
+
+- [비동기/동기, 블로킹/논블로킹 정리](Extra/A-Sync_Non-Blocking.md)
+- [어플리케이션의 정의](Extra/Application.md)
+- [컴퓨터 특별 기호](Extra/ComputerSpecialSign.md)
+- [가비지 컬렉팅 정리](Extra/GarbageCollect.md)
+- [네이밍 기법 정리](Extra/Naming.md)
+- [National Language Support란?](Extra/Nls.md)
+
+**GIT**
+
+- [Gitkeep 파일 사용도 정리](Git/Gitkeep.md)
+- [GitlabFlow 정리](Git/GitlabFlow.md)
+
+**HTML**
+
+- [Base 태그 정리](Html/Base.md)
+- [canvas 란?](Html/Canvas.md)
+- [Dom 정리](Html/Dom.md)
+- [Link 태그 정리](Html/Link.md)
+- [MetaData 정리](Html/MetaData.md)
+- [MimeType 정리](Html/MimeType.md)
+
+**INTERNET**
+
+- [인터넷이 동작하는 방법](Internet/ActivityWay.Internet.md)
+
+**JAVASCRIPT**
+
+- [JAVASCRIPT가 동작하는 방법](JavaScript/ActivityWay.js.md)
+- [호이스팅 정리](JavaScript/Hoisting.md)
+
+**NEXT**
+
+- [Next.js 정리](Next/NextJs.md)
+
+**NODEJS**
+
+- [Env 정리](NodeJs/Env.md)
+- [Node.js 설치 방법](NodeJs/InstallNode.md)
+- [npm 설치 및 사용법](NodeJs/InstallNpm-Usage.md)
+- [nvm 설치 및 사용법](NodeJs/InstallNvm-Usage.md)
+
+**REACT**
+
+- [Hooks 정리](React/Hooks.md)
+
+**RECOIL**
+
+- [recoil 정리](Recoil/AboutRecoil.md)
+
+**SASS**
+
+- [NestedProperties 정리](Sass/NestedProperties.md)
+
+**SEO**
+
+- [Meta 태그를 이용한 검색엔진 최적화](Seo/MetaTag.md)
+- [Robot.txt를 이용한 검색엔진 최적화](Seo/RobotTxt.md)
+
+**SVELTE**
+
+> 리뉴얼 예정
+
+- 반응성 정리
+- 개념 정리
+- 동적 속성 정리
+- 라이프 사이클 정리
+- 스타일링 정리
+- svelte.js 시작하는법
+- 중첩속성 정리
+- HTML entity 사용하는법
+
+**TYPESCRIPT**
+
+**WEB**
+
+- [인터넷이 작동하는법 정리](Web/ActivityWay.Web.md)
+- [하이퍼링크 개념 정리](Web/HyperLink.md0)
+
+**WEBPACK**
+
+- [트리쉐이킹 개념 정리](Webpack/TreeShaking.md)
+
+**YARN**
+
+- [yarn 설치 및 사용법](Yarn/InstallYarn-Usage.md)
+- [yarn berry 정리](Yarn/YarnBerry.md)
