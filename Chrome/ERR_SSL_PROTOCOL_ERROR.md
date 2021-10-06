@@ -29,3 +29,6 @@
 ![lowerversionpotocol](https://2.bp.blogspot.com/-LRF3cr_kbFc/W_gIZKKwBOI/AAAAAAAAcXo/URyklh-bm7k3iAE6svJsN60SAtFI0p3CgCLcBGAs/s1600/IE11_advanced.PNG)
 
 **3번** 본인의 경우가 3번이었습니다. 접근하려는 테스팅 서버에는 ssl이 적용되지 않은 상태였는데 친구가 `baseURL`을 잘못 수정하여 http"s"를 제거하지 않은 상태에서 접근하려하여 발생한 에러였습니다.
+
+[📖](http://1004lucifer.blogspot.com/2018/11/chrome-errsslprotocolerror.html)
+`참고자료`
