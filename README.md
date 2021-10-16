@@ -86,6 +86,7 @@
 
 - [Meta 태그를 이용한 검색엔진 최적화](Seo/MetaTag.md)
 - [Robot.txt를 이용한 검색엔진 최적화](Seo/RobotTxt.md)
+- [소셜 미디어 최적화(SMO)](Seo/Smo.md)
 
 **SVELTE**
 
