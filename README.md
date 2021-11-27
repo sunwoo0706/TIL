@@ -59,6 +59,10 @@
 - [JAVASCRIPT가 동작하는 방법](JavaScript/ActivityWay.js.md)
 - [호이스팅 정리](JavaScript/Hoisting.md)
 
+**JEST**
+
+- [Jest 간단 설명 및 간단한 사용법](Jest/JestInCommon.md)
+
 **NEXT**
 
 - [Next.js 정리](Next/NextJs.md)
