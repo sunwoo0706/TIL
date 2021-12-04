@@ -94,16 +94,33 @@
 
 **SVELTE**
 
-> 리뉴얼 예정
+- [이벤트](Svelte/Event)
 
-- 반응성 정리
-- 개념 정리
-- 동적 속성 정리
-- 라이프 사이클 정리
-- 스타일링 정리
-- svelte.js 시작하는법
-- 중첩속성 정리
-- HTML entity 사용하는법
+  - [이벤트 들어가기](Svelte/Event/EventIntro.md)
+
+- [스벨트 들어가기](Svelte/Intro)
+
+  - [데이터 추가하기](Svelte/Intro)
+  - [동적 HTML 속성](Svelte/Intro/DynamicAttr.md)
+  - [HTML태그 문자열 사용](Svelte/Intro/InnerHtmlTag.md)
+  - [컴포넌트 중첩](Svelte/Intro/NestedComponent.md)
+  - [스타일링](Svelte/Intro/Styling.md)
+  - [스벨트 란?](Svelte/Intro/SvelteBasic.md)
+
+- [로직 블럭](Svelte/LogicBlock)
+
+  - [Each 블럭](Svelte/LogicBlock/EachBlocks.md)
+  - [조건 블럭](Svelte/LogicBlock/IfBlocks.md)
+
+- [Props](Svelte/Props)
+
+  - [Props 들어가기](Svelte/Props/PropsIntro.md)
+
+- [반응성](Svelte/Reactivity/)
+
+  - [Reactivity 들어가기](Svelte/Props/Reactivity.md)
+  - [Reactivity 상태](Svelte/Props/Statements.md)
+  - [Reactivity 배열과 객체](Svelte/Reactivity/UpdatingArraysAndObjects.md)
 
 **TYPESCRIPT**
 
