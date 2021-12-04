@@ -109,6 +109,7 @@
 
 - [로직 블럭](Svelte/LogicBlock)
 
+  - [Await 블럭](Svelte/LogicBlock/IfBlocks.md)
   - [Each 블럭](Svelte/LogicBlock/EachBlocks.md)
   - [조건 블럭](Svelte/LogicBlock/IfBlocks.md)
 
