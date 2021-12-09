@@ -67,6 +67,7 @@
 
 - [Next.js 정리](Next/NextJs.md)
 - [Automatic Static Optimization 자동정적최적화란?](Next/AutomaticStaticOptimization.md)
+- [pages/ src/에 위치시키기](Next/PagesDirInSrc.md)
 
 **NODEJS**
 
