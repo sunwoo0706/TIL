@@ -66,6 +66,7 @@
 **NEXT**
 
 - [Next.js 정리](Next/NextJs.md)
+- [Automatic Static Optimization 자동정적최적화란?](Next/AutomaticStaticOptimization.md)
 
 **NODEJS**
 
@@ -77,6 +78,7 @@
 **REACT**
 
 - [Hooks 정리](React/Hooks.md)
+- [Hydrate란?](React/Hydrate.md)
 
 **RECOIL**
 
