@@ -49,6 +49,8 @@
 - [Link 태그 정리](Html/Link.md)
 - [MetaData 정리](Html/MetaData.md)
 - [MimeType 정리](Html/MimeType.md)
+- [Shadow DOM 정리](Html/ShadowDom.md)
+- [Slot이란?](Html/Slot.md)
 
 **INTERNET**
 

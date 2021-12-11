@@ -61,7 +61,7 @@ customElements.define('my-template', myTemplate);
 
 ### named slot
 
-다양한 콘텐츠로 이루어진 복잡한 요소는 명명된 슬롯을 사용하여 쉽게 생성할 수 있습니다. 슬롯을 통해 다양한 요소들이 하나의 템플릿에서 구현 가능하므로 매우 유용합니다.
+다양한 콘텐츠로 이루어진 복잡한 요소는 명명된 슬롯을 사용하여 쉽게 생성할 수 있습니다. 슬롯을 통해 다양한 요소들이 하나의 템플릿에서 구현 가능하므로 매우 유용하다.
 
 ```html
 <!-- 템플릿 선언 -->
@@ -79,16 +79,16 @@ customElements.define('my-template', myTemplate);
 
 ![명명된 슬롯 표시](https://wit.nts-corp.com/wp-content/uploads/2019/03/-10)
 
-> 참고 : `<my-template>` 내의 `<h1>`, `<p>`과 같은 자식 요소들을 Light DOM이라고 합니다. 이들은 템플릿 코드에 있는 지정된 slot을 찾아갑니다.
+> 참고 : `<my-template>` 내의 `<h1>`, `<p>`과 같은 자식 요소들을 Light DOM이라고 합니다. 이들은 템플릿 코드에 있는 지정된 slot을 찾아간다.
 
 ### 스타일
 
 스타일 지정
-웹 구성 요소와 shadow DOM 내부 요소에 스타일을 지정하는 다양한 방법이 있습니다.
+웹 구성 요소와 shadow DOM 내부 요소에 스타일을 지정하는 다양한 방법이 있다.
 
-:host : shadow root로 지정된 웹 구성 요소에 스타일을 적용합니다.
-:host-context(<selector>) : 웹 구성 요소 혹은 상위 요소의 선택자가 <selector>와 일치하면, 웹 구성 요소의 자식 요소에 스타일을 적용합니다.
-::slotted(<compound-selector>) : 지정한 복합 선택자와 일치하는 슬롯 콘텐츠에 스타일을 적용합니다.
+:host : shadow root로 지정된 웹 구성 요소에 스타일을 적용한다.
+:host-context(<selector>) : 웹 구성 요소 혹은 상위 요소의 선택자가 <selector>와 일치하면, 웹 구성 요소의 자식 요소에 스타일을 적용한다.
+::slotted(<compound-selector>) : 지정한 복합 선택자와 일치하는 슬롯 콘텐츠에 스타일을 적용한다.
 
 간단한 예시를 살펴보면,
 
