@@ -7,11 +7,6 @@
 - [Axios 기초 사용법](Axios/AxiosUsage.md)
 - [Axios 설치 및 사용법](Axios/InstallAxios-Usage.md)
 
-**CHROME**
-
-- [ERR_SSL_PROTOCOL_ERROR 에러 정리 및 해결 방법](Chrome/ERR_SSL_PROTOCOL_ERROR.md)
-- [ERR_SSL_PROTOCOL_ERROR 에러 정리 및 해결 방법](Chrome/ERR_SSL_PROTOCOL_ERROR.md)
-
 **CONTEXTAPI**
 
 - [ContextAPI 기초 예제](ContextApi/SimpleExample.md)
@@ -26,6 +21,11 @@
 - [MVC 정리](DesignPattern/Mvc.md)
 - [MVP 정리](DesignPattern/Mvp.md)
 - [MVVM 정리](DesignPattern/Mvvm.md)
+
+**Error**
+
+- [ERR_CONNECTION_REFUSED 에러 정리 및 해결 방법](Error/ERR_CONNECTION_REFUSED.md)
+- [ERR_SSL_PROTOCOL_ERROR 에러 정리 및 해결 방법](Error/ERR_SSL_PROTOCOL_ERROR.md)
 
 **EXTRA**
 
