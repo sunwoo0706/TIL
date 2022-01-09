@@ -34,3 +34,77 @@ I was fifty years old to-day. Half a century (has) hurried by since I first lay 
 
 '.' 문자 자체를 검색하고 싶다면, 역슬래시(\\)를 사용하면 된다.<br />
 참고로 역슬래시 또한 '\\' 를 붙여서 사용하면 '\\' 문자 자체를 검색가능하다.
+
+### 문자 집합 (Character Set)
+
+모든 문자를 나타낼 수 있는 '.' 과 달리, 대괄호([])를 사용하여 문자 집합을 표현할 수 있다.
+
+<small>Regex</small>
+```
+f[ie]
+```
+
+<small>Text</small>
+```
+(fi)re
+siren
+(fe)male
+(fi)nally
+apple
+airport
+```
+
+문자 집합은 한마디로 문자 집합 중 하나가 일치하는 경우를 의미한다고 생각하면 된다.
+
+#### 문자 집합의 범위 (Range)
+
+<small>Regex</small>
+```
+...[0123456789]
+```
+
+<small>Text</small>
+```
+abcd.txt
+abce.txt
+(abc0).txt
+abcf.txt
+(abc1).txt
+(abc2).txt
+(abc3).txt
+```
+
+매치된 문자열을 살펴보면, 아무 문자 3개 뒤에 숫자가 등장해야만 매치가 되는 것을 볼 수 있다. 하지만 저렇게 일일히 숫자를 다 쓰는것은 효율적이지 않기 때문에 regex에서는 하이픈(-) 을 제공한다.
+
+<small>Regex</small>
+```
+...[0123456789]
+```
+
+<small>Regex</small>
+```
+...[0-9]
+```
+
+위 두 코드는 똑같은 동작을 하는 regex 코드이다. 또한 숫자가 아닌 문자에서도 [a-z]나 [A-Z] 같이 사용가능하다. (영어가 아니더라도 아스키 문자라면 무엇이든지 사용할 수 있다. Range의 범위 지정시 앞에는 작은 값이 나와야 한다.)
+문자 범위 여러개를 [a-zA-Z0-9]와 같이 문자 집합 하나에 포함시킬 수 있다.
+
+#### 문자열 집합 제외
+
+특정 문자들을 제외하고 문자열을 검색하고 싶을때는 캐럿(^) 을 사용하면 된다.
+
+<small>Regex</small>
+```
+...[^0-9]\.
+```
+
+<small>Regex</small>
+```
+(abcd.)txt
+(abce.)txt
+abc0.txt
+(abcf.)txt
+abc1.txt
+abc2.txt
+abc3.txt
+```
