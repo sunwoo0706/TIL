@@ -96,6 +96,11 @@
 
 - [recoil 정리](Recoil/AboutRecoil.md)
 
+**REDUX**
+
+- [Redux 개념](Redux/ReduxIntro.md)
+- [왜 reducer는 reducer라고 불리울까?](Redux/WhyWeCalledReducer.md)
+
 **SASS**
 
 - [NestedProperties 정리](Sass/NestedProperties.md)
