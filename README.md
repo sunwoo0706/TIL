@@ -98,7 +98,9 @@
 
 **REDUX**
 
+- [Redux앱의 데이터 흐름 구조](Redux/ReduxAppDataFlow.md)
 - [Redux 개념](Redux/ReduxIntro.md)
+- [Redux의 selectors란?](Redux/Selectors.md)
 - [왜 reducer는 reducer라고 불리울까?](Redux/WhyWeCalledReducer.md)
 
 **SASS**
