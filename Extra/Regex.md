@@ -98,7 +98,7 @@ abcf.txt
 ...[^0-9]\.
 ```
 
-<small>Regex</small>
+<small>Text</small>
 ```
 (abcd.)txt
 (abce.)txt
@@ -129,3 +129,61 @@ abc3.txt
 | \S | [^\f\n\r\t\v]와 동일한 기능 |
 | \x | 16진수 숫자와 일치 |
 | \0 | 8진수 숫자와 일치 |
+
+#### 연속된 문자 찾기
+
+연속된 문자를 찾고 싶을때는 '+' 란 메타 문자를 사용할 수 있다.
+
+<small>Regex</small>
+```
+\w+@\w+\.\w+
+```
+
+<small>Text</small>
+```
+(id@gmail.com)
+id@daumnet
+(id@naver.com)
+(id@nate.com)
+id@google
+```
+
+'+' 문자는 문자가 하나 이상 일치해야만 하는데 문자가 아예 없거나 하나 이상일 경우에는 '*' 문자를 문자 또는 문자 집합 뒤에 써주면 된다.
+
+<small>Regex</small>
+```
+bo+
+```
+
+<small>Text</small>
+```
+b
+(bo)
+(boo)
+```
+
+<small>Regex</small>
+```
+bo*
+```
+
+<small>Text</small>
+```
+(b)
+(bo)
+(boo)
+```
+
+문자가 없거나, 하나만 있으면 일치하게 하고 싶은 경우에는 '?'를 사용하면 됩니다.
+
+<small>Regex</small>
+```
+aabb?cc
+```
+
+<small>Text</small>
+```
+(aabcc)
+(aabbcc)
+aabbbbcc
+```
