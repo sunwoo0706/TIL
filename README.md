@@ -68,6 +68,8 @@
 - [이벤트 버블링이나 캡쳐를 막고 싶어요!](JavaScript/EventStopPropagation.md)
 - [호이스팅 정리](JavaScript/Hoisting.md)
 - [Promise란?](JavaScript/Promise.md)
+- [내장 함수](JavaScript/Function)
+  - [test](JavaScript/Function/Test.md)
 
 **JEST**
 
