@@ -88,6 +88,7 @@
 - [Node.js 설치 방법](NodeJs/InstallNode.md)
 - [npm 설치 및 사용법](NodeJs/InstallNpm-Usage.md)
 - [nvm 설치 및 사용법](NodeJs/InstallNvm-Usage.md)
+- [--target 속성에 대해](NodeJs/NpmTargetArchPlatform.md)
 
 **REACT**
 
