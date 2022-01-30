@@ -4,8 +4,7 @@
 
 **AXIOS**
 
-- [Axios 기초 사용법](Axios/AxiosUsage.md)
-- [Axios 설치 및 사용법](Axios/InstallAxios-Usage.md)
+- [Axios 시작하기](Axios/AxiosStart.md)
 
 **CONTEXTAPI**
 
