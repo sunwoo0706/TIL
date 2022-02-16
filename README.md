@@ -31,6 +31,7 @@
 - [비동기/동기, 블로킹/논블로킹 정리](Extra/A-Sync_Non-Blocking.md)
 - [어플리케이션의 정의](Extra/Application.md)
 - [컴퓨터 특별 기호](Extra/ComputerSpecialSign.md)
+- [표현식과 문장의 차이](Extra/ExpressionStatement.md)
 - [가비지 컬렉팅 정리](Extra/GarbageCollect.md)
 - [네이밍 기법 정리](Extra/Naming.md)
 - [National Language Support란?](Extra/Nls.md)
