@@ -69,7 +69,7 @@
 - [호이스팅 정리](JavaScript/Hoisting.md)
 - [Promise란?](JavaScript/Promise.md)
 - [내장 함수](JavaScript/Function)
-  - [test](JavaScript/Function/Test.md)
+- [왜 자바스크립트의 Month는 0부터 시작할까](JavaScript/WhyJavascriptMonthZeroBased.md)
 
 **JEST**
 
