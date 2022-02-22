@@ -58,18 +58,16 @@
 
 **JAVASCRIPT**
 
-- [JAVASCRIPT가 동작하는 방법](JavaScript/ActivityWay.js.md)
-- [Async Await이란?](JavaScript/AsyncAwait.md)
-- [콜백 함수란?](JavaScript/Callback.md)
-- [js에서 이벤트란](JavaScript/Event.md)
-- [이벤트 버블링이란?](JavaScript/EventBubbling.md)
-- [이벤트 캡쳐란?](JavaScript/EventCapture.md)
-- [이벤트 위임이란?](JavaScript/EventDelegation.md)
-- [이벤트 버블링이나 캡쳐를 막고 싶어요!](JavaScript/EventStopPropagation.md)
-- [호이스팅 정리](JavaScript/Hoisting.md)
-- [Promise란?](JavaScript/Promise.md)
-- [내장 함수](JavaScript/Function)
-- [왜 자바스크립트의 Month는 0부터 시작할까](JavaScript/WhyJavascriptMonthZeroBased.md)
+- [Async Await이란?](JavaScript/Concept/AsyncAwait.md)
+- [콜백 함수란?](JavaScript/Concept/Callback.md)
+- [js에서 이벤트란](JavaScript/Concept/Event.md)
+- [이벤트 버블링이란?](JavaScript/Concept/EventBubbling.md)
+- [이벤트 캡쳐란?](JavaScript/Concept/EventCapture.md)
+- [이벤트 위임이란?](JavaScript/Concept/EventDelegation.md)
+- [이벤트 버블링이나 캡쳐를 막고 싶어요!](JavaScript/Concept/EventStopPropagation.md)
+- [호이스팅 정리](JavaScript/Concept/Hoisting.md)
+- [Promise란?](JavaScript/Concept/Promise.md)
+- [왜 자바스크립트의 getMonth는 0부터 시작할까](JavaScript/WhyJavascriptMonthZeroBased.md)
 
 **JEST**
 
