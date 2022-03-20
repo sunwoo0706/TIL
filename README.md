@@ -2,10 +2,6 @@
 
 > #### 시작한 날 : `2020/12/14`
 
-**AXIOS**
-
-- [Axios 시작하기](Axios/AxiosStart.md)
-
 **BROWSER**
 
 - [Browser 시작하기](Browser/BomVersusDom.md)
