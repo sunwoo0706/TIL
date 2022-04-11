@@ -7,6 +7,10 @@
 - [Browser 시작하기](Browser/BomVersusDom.md)
 - [Browser 렌더링 과정](Browser/BrowserRenderingPath.md)
 
+**CHROME**
+
+- [개발자 도구로 디버깅하기](Chrome/DebuggingByDeloperTool.md)
+
 **CONTEXTAPI**
 
 - [ContextAPI 기초 예제](ContextApi/SimpleExample.md)
