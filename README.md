@@ -76,10 +76,11 @@
 
 **NEXT**
 
-- [Automatic Static Optimization 자동정적최적화란?](Next/AutomaticStaticOptimization.md)
+- [Automatic Static Optimization 자동정적최적화란?](NextJs/AutomaticStaticOptimization.md)
 - [getStaticProps 정리](NextJs/GetStaticProps.md)
-- [Next.js 정리](Next/NextJs.md)
-- [pages/ src/에 위치시키기](Next/PagesDirInSrc.md)
+- [Next.js 정리](NextJs/NextJs.md)
+- [pages/ src/에 위치시키기](NextJs/PagesDirInSrc.md)
+- [Public ENV가 작동되지 않는 경우](NextJs/PublicEnvNotWork.md)
 
 **NODEJS**
 
